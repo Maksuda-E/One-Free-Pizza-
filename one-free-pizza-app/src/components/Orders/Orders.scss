@@ -1,0 +1,33 @@
+.orders{
+    margin-bottom: 200px;
+    .loading{
+        height: 150px;
+        width: 150px;
+        padding-top: 100px;
+        padding-left: 800px;
+        padding-bottom: 500px;
+        }
+        
+        .order{
+            padding-left: 50px;
+            padding-top: 20px;
+            font-family: 'Yu Gothic';
+            font-weight: bold;
+            font-size: 40px;
+        }
+        .ordernumber{
+            font-style: normal;
+            color: rgb(179, 26, 26);
+            font-weight: 500;
+        }
+        
+        @media (max-width: 1000px) {
+            .loading{
+            padding-left: 200px;
+            }
+    }
+        
+}
+
+
+  

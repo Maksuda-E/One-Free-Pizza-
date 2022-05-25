@@ -1,0 +1,55 @@
+main{
+    padding-left: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .heading{
+        font-family: 'Segoe Print';
+        font-size: 35px;
+        color: rgba(66, 160, 32, 0.911);
+        margin-left: -100px;
+    }
+    .para{
+        font-family: 'Yu Gothic';
+        font-size: 20px;
+        color: black;
+        font-weight: 500;
+        margin-left: -100px;
+    }
+
+    .pizzaImage{
+        width: "100%";
+        height: 550px;
+    }
+    .note{
+        color: red;
+        font-family: 'Yu Gothic';
+        font-weight: bold;
+    }
+    .variations{
+        font-family: 'Yu Gothic';
+        font-size: 30px;
+        color: black;
+        font-weight:bolder;
+    }
+    .pizzas{
+        display: flex;
+        flex-direction: row;
+        .type{
+            height: 400px;
+            width: "100%";
+            display: flex;
+        }
+    }
+    @media (max-width: 1000px) {
+        .pizzas{
+            display: flex;
+            flex-direction: column;
+        }
+      }
+      
+}

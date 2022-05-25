@@ -1,0 +1,22 @@
+.navbar {
+	width: 100%;
+	background-color: #981d1d;
+	overflow: auto;
+}
+.navbar a {
+	float: left;
+	color: rgb(255, 253, 253);
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight: 550;
+	padding: 15px 30px;
+}
+.navbar a:hover {
+	background-color: rgb(219, 187, 187);
+	color: black;
+}
+.navbar a:focus { 
+    background-color: rgb(219, 217, 143) ; 
+    color: black;
+}
